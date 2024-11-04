@@ -1,21 +1,27 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
     <title>To-Do List</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-    <div class="container">
-        <h1>To Do List</h1>
-        <input type="text" id="todo_input" placeholder="Enter the text">
-        <button id="add_button">Add</button>
-        <ul id="todo_list"></ul>
+    <div class="todo-container">
+        <div class="todo-header"></div>
+        <h2>To-Do List</h2>
+        <button id="sort-btn">
+            <img src="icons/sort-ascending.png" alt="sort icon">
+        </button>
+        <div class="todo-body">
+            <input type="text" id="todo-input" placeholder=" ">
+        </div>
+        <ul id="todo-list"></ul>
+        <button id="add-btn">
+            <img src="icons/add-icon.png" alt="add icon">
+        </button>
     </div>
-    <script src="./script.js"></script>
-</body>
 
+    <script src="script.js"></script>
+</body>
 </html>
